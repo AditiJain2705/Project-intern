@@ -20,7 +20,7 @@ const index = () => {
 </motion.div>
 <motion.div className={styles.card1}initial={{scale:0.8}}whileHover={{scale:0.9}} >
 <img src="https://elements.falmec.com/images/intro/monolith-thumbnail.webp" alt="" />
-<h1 className='position-absolute top-5 text-white'>Standard Modular Kitchen
+<h1 className='position-absolute top-5 text-white text-xl'>Standard Modular Kitchen
 
 </h1>
 
