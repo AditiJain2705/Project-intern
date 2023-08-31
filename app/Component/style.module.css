@@ -24,6 +24,11 @@ margin-left: 10%;
   height: 100%;
   width: 100%;
 }
+.description{
+  font-size: 2vmax;
+  color: white;
+  margin-left: 10%;
+}
 @media screen and (max-width:600px ){
   .page2{
     height: 100vh;
@@ -40,5 +45,9 @@ margin-left: 10%;
     height: 40%;
     width: 100%;
   }
-
+.description{
+  font-size: 1.5vmax;
+  color: white;
+  margin-left: 10%;
+}
 }
