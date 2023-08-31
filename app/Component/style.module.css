@@ -10,6 +10,7 @@
 .desc{
   height: 60%;
   width: 50%;
+    margin-top:5%;
  margin-left:10%;
  
 }
@@ -27,7 +28,7 @@ margin-left: 10%;
 .description{
   font-size: 2vmax;
   color: white;
- 
+ margin-left:10%;
 }
 @media screen and (max-width:600px ){
   .page2{
