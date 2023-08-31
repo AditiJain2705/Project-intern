@@ -1,0 +1,38 @@
+.card{
+    height: 60%;
+    width: 30%;
+    margin-left: 10%;
+    
+    background-color: black;
+}
+.card>img{
+    height: 100%;
+    width: 100%;
+}
+
+
+
+.card1{
+    height: 60%;
+    width: 30%;
+    margin-left: 60%;
+    margin-top: -15%;
+    background-color: black;
+}
+.card1>img{
+    height: 100%;
+    width: 100%;
+}
+@media screen and (max-width:600px ){
+  .card{
+    height: 40%;
+    width: 50%;
+    margin-top: 10%;
+  } 
+  .card1{
+    height: 40%;
+    width: 50%;
+    margin-top: 10%;
+    margin-left: 40%;
+  } 
+}

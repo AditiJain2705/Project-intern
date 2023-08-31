@@ -1,0 +1,87 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.page1{
+  height: 100vh;
+  width: 100%;
+  text-align: center;
+  align-items: center;
+  overflow: hidden;
+}
+.page1>nav{
+  height: 8vh;
+  width: 100%;
+position: absolute;
+top: 0;
+}
+.Logo{
+  height: 100%;
+  width: 10%;
+margin-left: 5%;
+font-weight: 600;
+}
+.page1>h1{
+  font-size: 5rem;
+  color: white;
+ position: absolute;
+ top: 20%;
+ left: 15%;
+font-weight: 600;
+}
+
+
+
+.buttonClass {
+  position: absolute;
+  top: 50%;
+  left: 45%;
+  font-size:14px;
+  font-family:Arial;
+  width:120px;
+  height:30px;
+  border-width:1px;
+  color:white;
+  border-color:white;
+  font-weight:bold;
+  border-top-left-radius:8px;
+  border-top-right-radius:8px;
+  border-bottom-left-radius:8px;
+  border-bottom-right-radius:8px;
+  box-shadow: 0px 10px 14px -7px rgba(155, 155, 155, 1);
+  text-shadow: 0px 1px 0px rgba(155, 155, 155, 1);
+  background:transparent;
+  text-align: center;
+  padding-top: 0.5vmax;
+}
+
+.buttonClass:hover {
+  color: black;
+  background: linear-gradient(rgba(255, 255, 255, 1), rgba(255, 255, 255, 1));
+}
+@media screen and (max-width:600px ){
+  .page1{
+    height: 40vh;
+  }
+ .page1>nav>div>ul{
+  display: none;
+ } 
+  .page1>h1{
+    font-size: 2rem;
+    margin-top: -10%;
+  }
+  .buttonClass{
+    position: absolute;
+    top: 25%;
+  }
+}  
+@media screen and (max-width:360px ){
+  .page1>h1{
+    font-size: 2rem;
+    margin-top: -20%;
+  }
+  .buttonClass{
+    position: absolute;
+    top: 20%;
+  }
+}

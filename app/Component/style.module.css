@@ -1,0 +1,44 @@
+.page2{
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+   
+}
+
+
+.desc{
+  height: 60%;
+  width: 50%;
+ 
+ 
+}
+.card1{
+margin-left: 10%;
+  height: 80%;
+  width: 40%;
+ 
+ background-color: white;
+}
+.card1>img{
+  height: 100%;
+  width: 100%;
+}
+@media screen and (max-width:600px ){
+  .page2{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .card1{
+    height: 50%;
+    width: 60%;
+    margin-left: 20%;
+  }
+  .desc{
+    height: 40%;
+    width: 100%;
+  }
+
+}
