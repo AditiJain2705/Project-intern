@@ -12,7 +12,7 @@ const index = () => {
     animate="visible" >
   <h1  className='ml-10 mt-10 text-4xl text-white'>Design Your Kitchen</h1>
  
- <h1 className='text-white ml-10 '>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate quos exercitationem aspernatur error ab alias, atque minus cupiditate cum ipsum incidunt odio iure temporibus illo doloremque. Id nisi deleniti laboriosam.</h1>
+ <h1 className={styles.description}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate quos exercitationem aspernatur error ab alias, atque minus cupiditate cum ipsum incidunt odio iure temporibus illo doloremque. Id nisi deleniti laboriosam.</h1>
    
   <motion.div whileHover={{x:10}}>
   <h1 className='text-white ml-10 mt-5'>Get Kitchen Appliance ⟶</h1>
