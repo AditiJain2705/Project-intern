@@ -38,7 +38,7 @@ font-weight: 600;
   left: 45%;
   font-size:1.5vmax;
   font-family:Arial;
-  width:20vw;
+  width:15vw;
   height:10vh;
   border-width:1px;
   color:white;
@@ -83,5 +83,6 @@ font-weight: 600;
   .buttonClass{
     position: absolute;
     top: 20%;
+    height:5vh;
   }
 }
