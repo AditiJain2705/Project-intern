@@ -73,6 +73,7 @@ font-weight: 600;
   .buttonClass{
     position: absolute;
     top: 25%;
+    height:5vh;
   }
 }  
 @media screen and (max-width:360px ){
@@ -84,5 +85,6 @@ font-weight: 600;
     position: absolute;
     top: 20%;
     height:5vh;
+    width:20vw;
   }
 }
